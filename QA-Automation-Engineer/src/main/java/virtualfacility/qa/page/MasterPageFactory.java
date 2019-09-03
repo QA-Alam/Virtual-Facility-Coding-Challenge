@@ -164,7 +164,7 @@ public class MasterPageFactory extends BasePage {
 		System.out.println(stop.size());
 		for (int i = 0; i < stop.size(); i++) {
 			System.out.println(stop.get(i).getText());
-		logger.info("******** User Able to verify stop limit successfully *********");
+			logger.info("******** User Able to verify stop limit successfully *********");
 		}
 	}
 
@@ -212,37 +212,11 @@ public class MasterPageFactory extends BasePage {
 			if (VerifyWebElement(" Stock Limit Are Available - ", verifyStocklimit(), driver))
 				verifyStocklimit();
 			logger.info("******** User Able to verify Stock limit successfully *********");
-			
+
 			logger.info("******** User Able to verify market limit *********");
 			if (VerifyWebElement(" Stock Market Are Available - ", verifyStockMarket(), driver))
 				verifyStockMarket();
 			logger.info("******** User Able to verify market limit successfully*********");
-			
-			logger.info("******** User Able to verify 24h price Changing *********");
-			if (VerifyWebElement(" Stock Market 24h Change - ", Verify24hChange(), driver))
-				Verify24hChange().getText();
-			logger.info("******** User Able to verify 24h price Changing successfully*********");
-			
-			
-			logger.info("******** User Able to verify Last Price Changing *********");
-			if (VerifyWebElement(" Stock Market Last Price - ", VerifyLastPrice(), driver))
-				VerifyLastPrice().getText();
-			logger.info("******** User Able to verify Last Price Changing successfully*********");
-			
-			logger.info("******** User Able to verify 24h Changing Volume *********");
-			if (VerifyWebElement(" Stock Market 24h Volume - ", Verify24hVolume(), driver))
-				Verify24hVolume().getText();
-			logger.info("******** User Able to verify 24h Changing Volume successfully*********");
-			
-			logger.info("******** User Able to verify 24h changing Low price *********");
-			if (VerifyWebElement(" Stock Market 24h Low - ", Verify24hLow(), driver))
-				Verify24hLow().getText();
-			logger.info("******** User Able to verify 24h changing Low price successfully*********");
-			
-			logger.info("******** User Able to verify 24h changing High price *********");
-			if (VerifyWebElement(" Stock Market 24h High - ", Verify24hHigh(), driver))
-				Verify24hHigh().getText();
-			logger.info("******** User Able to verify 24h changing High price successfully*********");
 
 		} catch (Exception e) {
 			ExtentTestManager.getTest().log(LogStatus.FAIL, "failed: " + e.getMessage());
@@ -255,7 +229,7 @@ public class MasterPageFactory extends BasePage {
 			if (VerifyWebElement(" Click On Buying Stock - ", ClickOnLogin(), driver))
 				ClickOnLogin().click();
 			logger.info("******** User Able to Click on login button successfully*********");
-			
+
 			logger.info("******** User Able to verify login box page appear *********");
 			if (VerifyWebElement(" Login Page Appere - ", VerifyLoginPage(), driver))
 				VerifyLoginPage();
