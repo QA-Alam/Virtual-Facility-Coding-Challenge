@@ -158,6 +158,7 @@
     B.	Synchronization, I overcame this with different kinds of wait like implicit, explicit, pageload
     C.	Input Text Box, I overcame this using different explicit wait.
     D.	I had to configure all tools so I had to match all tools versions.
+
     
     
     
