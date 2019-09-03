@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Virtual Facility Test Suite">
+	  <listeners>
+		 <listener class-name="virtualfacilityExtentReport.TestListener"/>
+         <listener class-name="virtualfacilityExtentReport.AnnotationTransformer"/>
+	  </listeners>
+       <test name="Virtual Facility Test">
+         <classes>
+           <class name="virtualfacility.qa.Test.VirtualFacilityTest"/>
+         </classes>
+       </test> 
+</suite>
+
+
+
+
