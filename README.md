@@ -163,10 +163,14 @@
     Ensure FF version 48 or higher is installed
     
 # Also I placed all the browsers under the project Driver folder:
-     So you’re able to run Chrome browser, IE browser, Microsoft Edge, Gecko Driver which is an extension 
-     of Firefox Driver and Headless browser. By default it runs on Chrome Browser but if you want to run
-     with another browser so you have to go src/main/java extend virtualfacility.config.copy 
-     then open the file under and change the browser name. 
+     So you’re able to run Chrome browser, 
+     IE browser,
+     Microsoft Edge, 
+     Gecko Driver which is an extension of Firefox Driver,
+     Headless browser. 
+     By default it runs on Chrome Browser but if you want to run
+     with another browser so you have to go src/main/java extend virtualfacility.config folder
+     then open Config.properties file under virtualfacility.config folder and change the browser name. 
 
 # If you want to see all the log files:
      Under the project I have a folder with the file log which under there is all log files.
@@ -174,7 +178,7 @@
      Utility package for all common utility, Extend Report for Generate Reports with Screen Shots, 
      and either TestNG XML file for running test cases or Bat file. 
      Also, with this Framework you will be able to configure for Virtual Facility project and gradually
-     you can implement this with use      test cases as well as future test cases. 
+     you can implement this with use test cases as well as future test cases. 
 
 # I faced a couple of challenges while building Frameworks and executing test cases:
     A.	Identification Object, I overcame this with XPath Method
@@ -183,7 +187,7 @@
     D.	I had to configure all tools so I had to match all tools versions.
     E.	I faced a couple of exceptions, I overcame this with Try Catch block. 
     
-# Outcome Result in Console:
+# Outcome Result inside Console:
     [RemoteTestNG] detected TestNG version 6.14.3
     I am in onStart method Virtual Facility Test
     INFO [main] (BasePage.java:63)- ******** I am a chrome browser*********
@@ -232,12 +236,13 @@
     Total tests run: 2, Failures: 0, Skips: 0
     ===============================================
 # Extra Notes. I am used this project combination of all the below tools.
-      1-	Java Programming language
-      2-	Selenium WebDriver  version – 3.11.0
-      3-	Maven Build tool  version – 3.6.0
-      4-	Eclipse IDE
-      5-	TestNG  version 6.14.3
-      6-	JDBC
-      7-	Apache POI
+      1-	Java Programming language (OOPs) Concepts.
+      2-	Selenium WebDriver    version – 3.11.0
+      3-	Maven Build tool      version – 3.6.0
+      4-	Eclipse IDE           Version: 2019-03 (4.11.0)
+      5-	TestNG                version 6.14.3
+      6-	JDBC                  version 7.2.2.jre8
+      7-	Apache POI            version 3.15
       8-	GitHub
-      9-	Extend Report.
+      9-	Extend Report         version 2.41.2
+      10-       log 4j                version 1.2.17
