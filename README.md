@@ -187,7 +187,7 @@
     D.	I had to configure all tools so I had to match all tools versions.
     E.	I faced a couple of exceptions, I overcame this with Try Catch block. 
     
-# OutCome Result:
+# Outcome Result in Console:
     [RemoteTestNG] detected TestNG version 6.14.3
     I am in onStart method Virtual Facility Test
     INFO [main] (BasePage.java:63)- ******** I am a chrome browser*********
