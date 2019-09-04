@@ -161,17 +161,7 @@
 # Special Notes:
     Ensure Chrome Browser Latest Version,
     Ensure FF version 48 or higher is installed
-
-# Extra Notes. I am used this project combination of all the below tools.
-      1-	Java Programming language
-      2-	Selenium WebDriver  version – 3.11.0
-      3-	Maven Build tool  version – 3.6.0
-      4-	Eclipse IDE
-      5-	TestNG  version 6.14.3
-      6-	JDBC
-      7-	Apache POI
-      8-	GitHub
-      9-	Extend Report
+    
 # Also I placed all the browsers under the project Driver folder:
      So you’re able to run Chrome browser, IE browser, Microsoft Edge, Gecko Driver which is an extension 
      of Firefox Driver and Headless browser. By default it runs on Chrome Browser but if you want to run
@@ -241,6 +231,13 @@
     Virtual Facility Test Suite
     Total tests run: 2, Failures: 0, Skips: 0
     ===============================================
-
-
-    
+# Extra Notes. I am used this project combination of all the below tools.
+      1-	Java Programming language
+      2-	Selenium WebDriver  version – 3.11.0
+      3-	Maven Build tool  version – 3.6.0
+      4-	Eclipse IDE
+      5-	TestNG  version 6.14.3
+      6-	JDBC
+      7-	Apache POI
+      8-	GitHub
+      9-	Extend Report.
