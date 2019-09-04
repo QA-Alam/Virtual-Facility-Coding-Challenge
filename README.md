@@ -24,7 +24,7 @@
     It also explains how to execute a simple test that will assert the title of a page.
     Currently the project has one test that will navigate to (https://www.binance.com/en) and 
     verify the title matches Virtual Facility
-# Before pull-up project from Git-Hub, we need install some prerequisite tools in our local machine. 
+# Before pull-up project from Git-Hub, we will need to be install some prerequisite tools in our local machine. 
 
      Step 1: Download JDK
      Goto Java SE download site @ http://www.oracle.com/technetwork/java/javase/downloads/index.html.
@@ -119,17 +119,17 @@
 
 # Also I placed all the browsers under the project Driver folder:
     So you’re able to run Chrome browser, 
-    IE browser, Microsoft Edge, Gecko Driver which is an extension of Firefox Driver and Headless browser. 
-    By default it runs on Chrome Browser but if you want to run with another browser so you have to go 
-    src/main/java extend virtualfacility.config.copy then open the file under and change the browser name. 
+    IE browser, Microsoft Edge, 
+    Gecko Driver which is an extension of Firefox Driver 
+    and Headless browser. 
+    By default it runs on Chrome Browser 
+    but if we want to run with another browser so we have to go inside project
+    src/main/java folder extend virtualfacility.config.copy then open the file under and change the browser name. 
 
-# If you want to see all the log files: 
-    Under the project I have a folder with the file log which under there is all log files.
-
-# Expected output: 
+# Expected output Report: 
     After successfully running testcases you will be able to see On the Project ExendsReport Folder click on folder                        (ExtentReportResults.html) Right Click on file, Open with Chrome Browser, then you?re able to see extends 
     reports each test cases all    steps verify With Assertions, if it fails Any test cases display Report with screen shot.
-# Expected Test Output:
+# Expected Test Output DB Report:
     (If Needed DB Report): Install Oracle 11G, SqlDeveloper Then Create UserNAme = QA, PassWord = Alam
     A) Create Table with Below Command 
     CREATE TABLE VirtualFacility (
@@ -138,6 +138,7 @@
     Expected varchar(4000),
     Actual varchar(4000),
     Status varchar(1000));
+    
 # Run in SqlDeveloper 
     With this query (Select * from VirtualFacility;) If created table displayed A)TEST_ID, B)DESCRIPTION C)Expected,
     D)Actual, E)Status    Empty C) This command has to be Remove from (Select This code and Eclipse Upper Lept Conner 
@@ -155,7 +156,7 @@
     Ensure Chrome Browser Latest Version,
     Ensure FF version 48 or higher is installed
 
-# Extra Notes.
+# Extra Notes. I am used this project combination of all the below tools.
       1-	Java Programming language
       2-	Selenium WebDriver  version – 3.11.0
       3-	Maven Build tool  version – 3.6.0
