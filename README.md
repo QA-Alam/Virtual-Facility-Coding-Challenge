@@ -1,4 +1,5 @@
 # Virtual-Facility-Coding-Challenge Project
+    Hi Team,
     @c-gray, @faisalnwz or @miltonlopezjr Please read the following Instructions below and you will be able to run it.
 # How to pull Project from Github to eclipse
     Go to Eclipse Upper Left Corner, Click on File then you're able to see a dropdown, 
