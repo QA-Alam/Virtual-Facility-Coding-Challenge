@@ -1,6 +1,6 @@
 # Virtual-Facility-Coding-Challenge Project
     @c-gray, @faisalnwz or @miltonlopezjr Please read the following Instructions below and you will be able to run it.
-# How to pull Project from eclipse
+# How to pull Project from Github to eclipse
     Go to Eclipse Upper Left Corner, Click on File then you're able to see a dropdown, 
     click on Import, and a new window will appear.
     Then click on Git folder when extended you will be able to see (Project from git) 
