@@ -145,17 +145,17 @@
     D)Actual, E)Status    Empty C) This command has to be Remove from (Select This code and Eclipse Upper Lept Conner 
     Source Then Click on (Remove Block Command)
     
-        /*
-	 * @BeforeSuite public void dbTabledelete() throws Throwable {
-	 * 
-	 * DatabaseList.delecteTable(); }
-	 */
+    /*
+     * @BeforeSuite public void dbTabledelete() throws Throwable {
+     * 
+     * DatabaseList.delecteTable(); }
+     */
 	 
-        /*
-	* AfterMethode 
-	* DatabaseList.dbTable(data);
-	*/
-    After Excitation Completed if you run again this query  (Select * from VirtualFacility;) you're Able to see 
+    /*
+     * AfterMethode 
+     * DatabaseList.dbTable(data);
+     */
+    After Execution  Completed if you run again this query  (Select * from VirtualFacility;) you're Able to see 
     Data base Report status.
 
 # Special Notes:
