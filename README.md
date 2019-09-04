@@ -149,6 +149,11 @@
 	 * 
 	 * DatabaseList.delecteTable(); }
 	 */
+	 
+        /*
+	* AfterMethode 
+	* DatabaseList.dbTable(data);
+	*/
     After Excitation Completed if you run again this query  (Select * from VirtualFacility;) you're Able to see 
     Data base Report status.
 
