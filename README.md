@@ -25,6 +25,7 @@
     Currently the project has one test that will navigate to (https://www.binance.com/en) and 
     verify the title matches Virtual Facility
 # Before pull-up project from Git-Hub, we need install some prerequisite tools in our local machine. 
+
      Step 1: Download JDK
      Goto Java SE download site @ http://www.oracle.com/technetwork/java/javase/downloads/index.html.
      Under "Java Platform, Standard Edition" ⇒ "Java SE 1.8.{x}", where {x} denotes a fast running security-update number ⇒ Click the        "Oracle JDK" "Download" button.
@@ -46,29 +47,30 @@
      
      // Display the JDK version
      javac -version
-     javac 11.0.1
+     javac 1.8.1
 
      // Display the JRE version
      java -version
-     java version "11.0.1" 2018-10-16 LTS
-     Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
-     Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+     java version "1.8.0" 2018-10-16 LTS
+     Java(TM) SE Runtime Environment 18.9
+     Java HotSpot(TM) 64-Bit Server VM 18.9, mixed mode).
 
-     To install Apache Maven on Windows, you just need to download the Maven’s zip file, unzip it to a folder, and configure the Windows      environment variables.
+     To install Apache Maven on Windows, 
+     you just need to download the Maven’s zip file, unzip it to a folder, and configure the Windows      environment variables.
      Tested with :
      JDK 1.8
      Maven 3.6
      Windows 10
      Note
      Maven 3.3+ requires JDK 1.7+
-     1. JDK and JAVA_HOME
+     #. JDK and JAVA_HOME
      Make sure JDK is installed, and JAVA_HOME environment variable is configured.
      Check your system to see if you have the 1.8 Java version installed.
      From CMD Command:
      $ java -version
      If you do not have the latest Java installed, find out how to install Java.
     
-     2. Download the Eclipse Installer
+     #. Download the Eclipse Installer
      Download Eclipse Installer from http://www.eclipse.org/downloads.
      
      Start the Eclipse Installer executable
@@ -100,52 +102,7 @@
      Install New Software
      Finishing up:
      Accept the terms of the license agreement
-     Click on the Finish button
-
-# Environments variable Setup:
-    From Terminal/Cmd
-    Special Notes
-    Java Installation / Update
-    Check your system to see if you have the 1.8 Java version installed.
-    Command:
-    $ java -version
-    If you do not have the latest Java installed, find out how to install Java.
-    Ensure your JAVA_HOME environment to the location of the installed JDK. Find out how to do that.
-    Setting up Eclipse
-    Navigate to the Eclipse download page and download eclipse for Java EE developers.
-    Installing TestNG
-    Installing a Plugin:
-    Inside Eclipse, click on the Help menu
-    Select Install New Software.
-    Install New Software-1
-    Locating the Plugin:
-    Click the Add button
-    Enter http://beust.com/eclipse in the Location field
-    Install New Software-2
-    Selecting the Plugin:
-    Ensure the TestNG checkbox is selected
-    Click the "Next" button to the right bottom
-    Install New Software
-    Finishing up:
-    Accept the terms of the license agreement
-    Click on the Finish button
-    Install New Software
-    Setting up Maven
-    Download Maven.
-# Maven Installation:
-    Unzip the distribution archive to the directory you wish to install Maven. 
-    I extracted maven to my Documents folder
-    Add Maven to the PATH. More information can be found in the README.txt in the zip folder.
-    Here's an example:
-    how I added Maven to my PATH on MacOS. I added the following to the ~/.bash_profile.
-    $ export PATH=/Users/admin/Documents/Software/apache-maven-3.6.0/bin:$PATH
-    Then sourced (execute) the content of the ~/.bash_profile
-    $ source ~/.bash_profile
-    Verify Maven was correctly installed
-
-# Check Maven Version Command from CMD:
-    $ mvn -version
-    Maven dependencies are crucial to running any Maven project.
+     Click on the Finish button.
 
 # Maven dependencies:
     Maven dependencies contains key references to libraries that a Maven project needs to execute. 
